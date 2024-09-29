@@ -1,0 +1,76 @@
+/* Reseta margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #ff4d4d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 2.5em;
+}
+header h1 :hover{
+    color: #fff;
+    font-size: 3.5em;
+    transition: 0.5s;
+
+}
+
+/* Estilo da mensagem */
+.mensagem {
+    margin: 20px 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Estilo da imagem */
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #ff4d4d;
+    border-radius: 10px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.2em;
+}
+.s2{
+    width: 35%;
+    border: solid 10px black;
+}
+iframe{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 10px black;
+}
+.img_casa{
+    margin-top: 35px;
+    width: 35%;
+    border: solid 10px black;
+}
